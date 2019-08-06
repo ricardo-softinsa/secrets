@@ -260,6 +260,7 @@ class HexHighEntropyString(HighEntropyStringsPlugin):
         we also want to accommodate the fact that longer strings have a higher
         chance of being a true positive, which means "01234567890123456789"
         should be closer to the maximum entropy than the shorter version.
+                "01234567890123456789"
         """
         entropy = super(HexHighEntropyString, self).calculate_shannon_entropy(data)
         if len(data) == 1:
