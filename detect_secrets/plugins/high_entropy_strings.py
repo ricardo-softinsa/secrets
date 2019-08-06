@@ -253,7 +253,7 @@ class HexHighEntropyString(HighEntropyStringsPlugin):
         positive scenarios.
 
         Therefore, this tries to capture this heuristic mathemetically.
-
+                "0123456789"
         We do this by noting that the maximum shannon entropy for this charset
         is ~3.32 (e.g. "0123456789", with every digit different), and we want
         to lower that below the standard limit, 3. However, at the same time,
