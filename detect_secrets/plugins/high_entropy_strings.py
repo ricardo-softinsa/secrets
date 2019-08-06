@@ -19,8 +19,7 @@ from .common.ini_file_parser import IniFileParser
 from .common.yaml_file_parser import YamlFileParser
 from detect_secrets.core.potential_secret import PotentialSecret
 
-login = 'username'
-password = 'password'
+secret = 'password'
 
 YAML_EXTENSIONS = (
     '.yaml',
