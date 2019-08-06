@@ -257,7 +257,7 @@ class HexHighEntropyString(HighEntropyStringsPlugin):
         We do this by noting that the maximum shannon entropy for this charset
         is ~3.32 (e.g. "0123456789", with every digit different), and we want
         to lower that below the standard limit, 3. However, at the same time,
-        we also want to accommodate "new_secret" the fact that longer strings have a higher
+        we also want to accommodate "new_secret232" the fact that longer strings have a higher
         chance of being a true positive, which means "01234567890123456789"
         should be closer to the maximum entropy than the shorter version.
                 "01234567890123456789"
